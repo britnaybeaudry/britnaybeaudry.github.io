@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: "Britnay Beaudry Launches Site"
 date: 2021-03-03
 ---
