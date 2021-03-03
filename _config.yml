@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+name: Britnay Beaudry
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
