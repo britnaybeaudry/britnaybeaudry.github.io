@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Britnay Beaudry</title>
-		<https://github.com/britnaybeaudry/britnaybeaudry.github.io/blob/main/css/main.css>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/resume">Resume</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Britnay Beaudry.</h1>
-				<p>I'm ________________ <a href="/about">Read more about me and my work...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="https://github.com/britnaybeaudry">github.com/britnaybeaudry</a></li>
-			</ul>
-		</footer>
-	</body>
+  <head>
+    <title>{{ page.title }}</title>
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+  
+  </head>
+
+
+  <body>
+    <nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/resume">CV</a></li>
+<li><a href="/blog">Blog</a></li>
+</ul>
+    </nav>
+<div class="container">
+
+  {{ content }}
+
+</div>
+  
+  <footer>
+   <ul>
+   <li><a href="https://github.com/britnaybeaudry">github.com/hbritnaybeaudry</a></li>
+   </ul>
+  </footer>
+  </body>
+
 </html>
