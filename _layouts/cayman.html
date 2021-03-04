@@ -47,10 +47,14 @@
 </div>
   
   <footer>
-   <ul>
+        <footer class="site-footer">
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
+        <span class="site-footer-credits"><ul>
    <li>Made by Britnay Beaudry, with occasional assistance from her cat walking on the keyboard</li>
    <br><li><a href="https://github.com/britnaybeaudry">github.com/britnaybeaudry</a></li></br>
-   </ul>
-  </footer>
+   </ul>.</span>
+      </footer>
   </body>
 </html>
